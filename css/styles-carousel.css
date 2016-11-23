@@ -1,0 +1,63 @@
+.carousel  {
+   max-width: 1170px; /* ширина всего блока */
+   margin: 30px auto;
+   width:100%;
+}
+.carousel-wrapper {
+   margin: 10px 30px; /* отступы для стрелок */
+   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+   position:relative;
+}
+.carousel-items {
+   width: 10000px; /* устанавливаем большую ширину для набора элементов */
+   position: relative; /* позиционируем блок относительно основной области карусели */
+}
+.carousel-block {
+   float: left; /* выстраиваем все элементы карусели в ряд */
+   width: 264px; /* задаём ширину каждого элемента */
+   padding: 10px 20px 10px 0px; /* делаем оступы, чтобы элементы не сливались */
+}
+.carousel-block img{
+	display:block;
+}
+
+/*********** BUTTONS ***********/
+
+.carousel-button-left {
+    position: relative;
+    z-index: 100;
+    left: 20px;
+}
+
+.carousel-button-right {
+    position: relative;
+    z-index: 100;
+    right: 20px;
+}
+
+
+.carousel-button-left a, .carousel-button-right a{
+   width: 50px; 
+   height: 50px; 
+   position: relative;
+   background: rgba(172,172,172,0.8);
+   top: 115px; 
+   cursor: pointer; 
+   font-size: 30px;
+   color: #969696;
+   padding-top: 2px;
+   text-decoration:none;
+}
+
+.carousel-button-left a:hover, .carousel-button-right a:hover{
+   background: #FFD130;
+   color: #3c3c3c;
+}
+.carousel-button-left a{
+   float: left; 
+   
+}
+.carousel-button-right a{
+   float: right;
+   
+}
