@@ -701,3 +701,44 @@ footer {
     margin: 30px auto;
     max-width: 560px;
 }
+
+.text4_sect11 {
+    font: 12px OpenSansLight, sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.logo_livarava {
+    padding-left: 20px;
+}
+
+.box6_bot {
+
+    padding: 2px;
+}
+
+@media only screen and (max-width:1200px) {
+	.text4_sect11 {
+	   float: right;
+	}
+}
+
+@media only screen and (max-width:630px) {
+	footer .col-xs-4 {
+	   width: 100%;
+        text-align: center;
+	}
+    
+   footer .pull-right {
+  float: none !important;
+}
+
+.text4_sect11 {
+  float: none;
+}
+
+footer .text-right {
+  text-align: center;
+}
+}
