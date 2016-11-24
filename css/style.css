@@ -71,6 +71,10 @@
     width: 1px;
 }
 
+.nav-pills > li + li {
+    margin-left: 0;
+}
+
 .menu_top li::before {
     background-color: #F1F1F1;
     content: "";
@@ -97,6 +101,22 @@
 .menu_top li a{
     font: 14px OpenSansRegular, sans-serif;
     color: #6d6d6d;
+    padding: 10px 26px;
+}
+
+.bg_menu_top .navbar-collapse {
+    padding: 0;
+}
+
+.menu_top .li_first a{
+    text-align: left;
+    padding: 10px 26px 10px 15px;
+    
+}
+
+.logotip {
+  margin-left: 9px;
+  margin-right: 10px;
 }
 
 .btn_top_zvonok {

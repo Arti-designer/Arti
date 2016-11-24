@@ -126,7 +126,16 @@ header p {
   margin-top: 10px;
 }
 
+.menu_top li a {
+  color: #6d6d6d;
+  font: 14px OpenSansRegular,sans-serif;
+  padding: 10px 18px;
+}
 
+.menu_top .li_first a {
+  padding: 10px 18px 10px 15px;
+  text-align: left;
+}
 }
 
 @media only screen and (max-width:992px) {
@@ -163,11 +172,10 @@ header .pull-left {
 }
 
 .text_logotip {
-    font: 14px OpenSansRegular, sans-serif;
-    color: #23625f;
-    line-height: 1.2;
-    margin-top: 5px;
-   
+  color: #23625f;
+  font: 14px/1.2 OpenSansRegular,sans-serif;
+  margin-top: 5px;
+  margin-left: 10px;
 }
 
 
@@ -262,6 +270,17 @@ header .pull-left {
     margin-top: 20px;
 }
 
+.menu_top li a {
+  color: #6d6d6d;
+  font: 14px OpenSansRegular,sans-serif;
+  padding: 10px 12px;
+}
+
+.menu_top .li_first a {
+  padding: 10px 12px 10px 12px;
+  text-align: left;
+}
+
 }
 
 @media only screen and (max-width:768px) {
@@ -269,7 +288,17 @@ header .pull-left {
   border-bottom: 1px solid #fff;
 }
 
+.menu_top > li {
+  float: none;
+}
 
+.menu_top li, .menu_top .li_first a {
+  text-align: center!important;
+}
+
+.bg_menu_top .navbar-collapse {
+    padding: 5px 15px;
+}
 
 .navbar-toggle {
   background-color: transparent;
